@@ -10,7 +10,7 @@ Diese Schritte folgen:
 - Bitte passen Sie gegeben falls die einzelnen Teile an (.jar-Datei, Apache-TomCat-Server, Build Path anpassen)
 - VPN zur HWG-Lu muss eingeschaltet sein
 
-Nachdem das rote Kreuz nicht mehr zu sehen ist, starten Sie bitte mit der StartseiteView.jsp (unter Webcontent jsp-Ordner).
+Nachdem das rote Kreuz nicht mehr zu sehen ist, starten Sie bitte mit der StartseiteView.jsp (unter Webcontent -> jsp-Ordner).
 Öffnen Sie den File mit dem Google Chrome-Browser uns führen unsere Anwendung von dort aus fort!
 Die ersten Schritte zufolge sind, dass Sie sich registrieren und dann erneut anmelden. Aufs Weitere wünschen wir Ihnen viel Spaß mit unserer Anwendung.😃
 
