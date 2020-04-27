@@ -28,7 +28,7 @@ public class StartseiteBean {
 				+ "		<a href=\"../jsp/StartseiteView.jsp\"><img src=\"../img/imgStart/logo.png\" class=\"logo\" title=\"lazyNerds\"/></a>\n"
 				+ "					<div class=\"header-menu\">\n"
 				+ "<input type=\"submit\" name=\"portal\" value=\"Wifo-Portal\" class=\"submit\">"
-				+ "									<input type=\"submit\" name=\"home\" value=\"Home\" class=\"submit\"> <input \n"
+				+ "									<input \n"
 				+ "									type=\"submit\" name=\"wir\" value=\"Wer wir sind\" class=\"submit\"> <input\n"
 				+ "								type=\"submit\" name=\"einloggen\" value=\"Einloggen\" class=\"submit\"> <input\n"
 				+ "									type=\"submit\" name=\"register\" value=\"Registrieren\" class=\"submit\">\n"
@@ -47,7 +47,7 @@ public class StartseiteBean {
 				+ "				value=\"Datenschutz\" class=\"submit\"> <input type=\"submit\"\n"
 				+ "				name=\"feedback\" value=\"Feedback\" class=\"submit\"><input type=\"submit\"\n"
 				+ "				name=\"support\" value=\"Support\" class=\"submit\"><br>\n"
-				+ "			<h3>Copyright © 2020 lazyNerds</h3>\n" + "</div>";
+				+ "			<h3>Copyright Â© 2020 lazyNerds</h3>\n" + "</div>";
 
 		return footer;
 	}
@@ -62,7 +62,7 @@ public class StartseiteBean {
 				+ "				value=\"Datenschutz\" class=\"submit\"> <input type=\"submit\"\n"
 				+ "				name=\"feedback\" value=\"Feedback\" class=\"submit\"> <input type=\"submit\"\n"
 				+ "				name=\"support\" value=\"Support\" class=\"submit\"><br>\n"
-				+ "			<h3>Copyright © 2020 lazyNerds</h3>\n" + "</div>";
+				+ "			<h3>Copyright Â© 2020 lazyNerds</h3>\n" + "</div>";
 
 		return footer;
 	}
@@ -77,7 +77,7 @@ public class StartseiteBean {
 				+ "				value=\"Datenschutz\" class=\"submit\"> <input type=\"submit\"\n"
 				+ "				name=\"feedback\" value=\"Feedback\" class=\"submit\"> <input type=\"submit\"\n"
 				+ "				name=\"support\" value=\"Support\" class=\"submit\"><br>\n"
-				+ "			<h3>Copyright © 2020 lazyNerds</h3>\n" + "</div>";
+				+ "			<h3>Copyright Â© 2020 lazyNerds</h3>\n" + "</div>";
 
 		return footer;
 

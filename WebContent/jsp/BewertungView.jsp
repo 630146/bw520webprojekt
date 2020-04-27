@@ -51,11 +51,10 @@
 					<br> <br> <br> <br>
 					<h2>Bewerte lazyNerds mit einem Kommentar...</h2>
 					
-					<div class="Kasten">
+		
 						<input type="text" name="kommentar" value=""
-							placeholder="Dein Kommentar...">
-							</div>
-					
+							placeholder="Dein Kommentar..." class="text">
+
 						<input type="submit" name="speichern" value="Speichern"
 							class="submitBewertung"> <input type="submit"
 							name="timeline" value="Zur Timeline" class="submitBewertung">

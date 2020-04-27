@@ -215,7 +215,7 @@ var myQuiz = {
 				question : 'Wer ist am Coolsten?',
 				solution : 'Prof. R&ouml;ckle',
 				falses : [ 'V. Mayer', 'Prof. K&uuml;ppers',
-						'Prof. R&ouml;ckle', 'Frau Gondrom' ],
+						 'Frau Gondrom' ],
 				explanation : 'Es gibt nur eine Antwort!'
 			} ],
 

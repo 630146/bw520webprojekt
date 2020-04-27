@@ -48,6 +48,7 @@
 		}
 		
 		else if (jetztkaufen.equals("Jetzt Kaufen")) {
+			kb.deleteWarenkorb();
 
 			response.sendRedirect("./RechnungsView.jsp");
 

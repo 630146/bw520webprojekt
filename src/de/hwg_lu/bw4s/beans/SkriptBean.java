@@ -78,33 +78,33 @@ public class SkriptBean {
 			this.setAltklausur("../Altklausuren/Semester1/BWL.pdf");
 
 			break;
-			
+
 		case "wm":
 			this.setProf("LB Lehmann");
 			this.setSkript("../Skript/Skript1/WM.pdf");
 			this.setAltklausur("../Altklausuren/Semester1/WM.pdf");
 
 			break;
-			
+
 		case "sk":
 			this.setProf("Dieter Ott");
 			this.setSkript("../Skript/Skript1/Softskills.pdf");
 			break;
-			
+
 		case "wi":
 			this.setProf("Prof. Dr. Dorrhauer");
 			this.setSkript("../Skript/Skript1/Ewi.pdf");
 			this.setAltklausur("../Altklausuren/Semester1/EWI.pdf");
 
 			break;
-			
+
 		case "prog1":
 			this.setProf("Prof. Dr. rer. nat. Klaus Freyburger");
 			this.setSkript("../Skript/Skript1/Programierung1.pdf");
 			this.setAltklausur("../Altklausuren/Semester1/Prog1.pdf");
 
 			break;
-			
+
 		case "businessIntelligence":
 			this.setProf("Prof. Dr. rer. nat. Klaus Freyburger");
 			this.setSkript("../Skript/Skript5/BI.pdf");
@@ -118,62 +118,62 @@ public class SkriptBean {
 			this.setAltklausur("../Altklausuren/Semester2/Invest.pdf");
 
 			break;
-			
+
 		case "modell":
 			this.setProf("Prof. Dr. Dorrhauer");
 			this.setSkript("../Skript/Skript2/Modellierung.pdf");
 			this.setAltklausur("../Altklausuren/Semester2/Modell.pdf");
 
 			break;
-			
+
 		case "software":
 			this.setProf("Prof. Dr. Dorrhauer");
 			this.setSkript("../Skript/Skript2/software.pdf");
 			this.setAltklausur("../Altklausuren/Semester2/SE.pdf");
 
 			break;
-			
+
 		case "Prog2":
 			this.setProf("Prof. Dr. Peer K&uumlppers");
 			this.setSkript("../Skript/Skript2/Programierung2.pdf");
 			this.setAltklausur("../Altklausuren/Semester2/Prog2.pdf");
 
 			break;
-			
+
 		case "VWL":
 			this.setProf("Markus Heilig");
 			this.setSkript("../Skript/Skript3/VWL.pdf");
 			this.setAltklausur("../Altklausuren/Semester3/VWL.pdf");
 
 			break;
-			
+
 		case "OR":
 			this.setProf("Prof. Dr. rer. pol. Joachim Schmidt");
 			this.setSkript("../Skript/Skript3/OR.pdf");
 
 			break;
-			
+
 		case "algoDatenbanken":
 			this.setProf("Prof. Dr. Peer K&uuml;ppers");
 			this.setSkript("../Skript/Skript3/Datenbanken.pdf");
 			this.setAltklausur("../Altklausuren/Semester3/Algorithme.pdf");
 
 			break;
-			
+
 		case "betriebsrechner":
 			this.setProf("Prof. Dr. Peer K&uuml;ppers");
 			this.setSkript("../Skript/Skript3/Rechnernetze.pdf");
 			this.setAltklausur("../Altklausuren/Semester3/Rechnerntze.pdf");
 
 			break;
-			
+
 		case "UFUDL":
 			this.setProf("Prof. Dr. rer. pol. Martin Selchert");
 			this.setSkript("../Skript/Skript4/DLM&UFU.pdf");
 			this.setAltklausur("../Altklausuren/Semester4/DL&UFU.pdf");
 
 			break;
-			
+
 		case "Supply":
 			this.setProf("Prof. Dr. rer. pol. Frank Thome");
 			this.setSkript("../Skript/Skript4/Supply.pdf");
@@ -654,23 +654,25 @@ public class SkriptBean {
 			html += "<table>\n";
 			html += "<tr>\n";
 			html += "<td>Professur f&uuml;r Wirtschaftsinformatik\n";
-			html += "<table>\n";
-			html += "<tr>\n";
-			html += "<td><i class=\"fas fa-home\"></i></td>\n";
-			html += "<td>E34</td>\n";
-			html += "</tr>\n";
-			html += "<tr>\n";
-			html += "<td><i class=\"fas fa-phone\"></i></td>\n";
-			html += "<td>+49 (0) 621/5203-227</td>\n";
-
-			html += "</tr>\n";
-			html += "</table>\n";
+			
+				html += "<table>\n";
+				html += "<tr>\n";
+				html += "<td><i class=\"fas fa-home\"></i></td>\n";
+				html += "<td>E34</td>\n";
+				html += "</tr>\n";
+				html += "<tr>\n";
+				html += "<td><i class=\"fas fa-phone\"></i></td>\n";
+				html += "<td>+49 (0) 621/5203-227</td>\n";
+				html += "</tr>\n";
+				html += "</table>\n";
 			html += "</td>\n";
-			html += "<td><img alt=\"Das Bild hochladen fehlgeschlagen\"\n"
+			html += "<tr>\n";
+			html += "<td><a href=\"mailto:haio.roeckle@hwg-lu.de\">haio.roeckle@hwg-lu.de</a></td>";
+			html += "</tr>\n";
+			html += "<td><img alt=\"Hochladen fehlgeschlagen\"\n"
 					+ "				src=\"../img/imgProf/Roeckle_Haio.jpg\"></td>\n";
 			html += "</tr>\n";
 			html += "</table>\n";
-			html += "<a href=\"mailto:haio.roeckle@hwg-lu.de\">haio.roeckle@hwg-lu.de</a>\n";
 
 			this.setTitel(html);
 
@@ -993,8 +995,9 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
-			html += "<h3>Lehrgebiete</h3>\n";
 			html += "<br/>\n";
+			html += "<h3>Lehrgebiete</h3>\n";
+	
 			html += "<ul>\n";
 			html += "<li>Programmierung</li>\n";
 			html += "<li>Datenbanken</li>\n";
@@ -1007,8 +1010,8 @@ public class SkriptBean {
 
 			break;
 		case "infoSicher":
+			html += "<br>\n";
 			html += "<h3>Lehrgebiete</h3>\n";
-			html += "<br/>\n";
 			html += "<ul>\n";
 			html += "<li>Programmierung</li>\n";
 			html += "<li>Datenbanken</li>\n";
@@ -1219,12 +1222,15 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
+			html += "<br/>\n";
 			html += "<h3>Sprechstunde</h3>\n";
-			html += "<br /> Dienstags 10:00 bis 11:30 Uhr\n";
-			html += "<br /> Termine nach Vereinbarung mit Frau Gray, 0621 5203-150\n";
-			html += "<br />\n";
-			html += "<a href=\"https://olat.vcrp.de/dmz/\">zu den Veranstaltungsunterlagen in OLAT </a>\n";
-			html += "<a href=\"https://www.hwg-lu.de/fileadmin/user_upload/fachbereiche/fachbereich-3/Downloads/Dokumente/Wissenschaftliches_Arbeiten/3_WissenswertesAbschlussFreyburger.pdf\">Wissenswertes f&uuml;r Abschlussarbeiten</a>\n";
+			html += "<ul>\n";
+			html += "<li>Dienstags 10:00 bis 11:30 Uhr</li>\n";
+			html += "<li>Termine nach Vereinbarung mit Frau Gray, 0621 5203-150</li>\n";
+		
+			html += "<li><a href=\"https://olat.vcrp.de/dmz/\">zu den Veranstaltungsunterlagen in OLAT </a></li\n";
+			html += "<li><a href=\"https://www.hwg-lu.de/fileadmin/user_upload/fachbereiche/fachbereich-3/Downloads/Dokumente/Wissenschaftliches_Arbeiten/3_WissenswertesAbschlussFreyburger.pdf\">Wissenswertes f&uuml;r Abschlussarbeiten</a></li>\n";
+			html += "</ul>\n";
 			this.setSprechstunde(html);
 
 			break;
@@ -1270,7 +1276,6 @@ public class SkriptBean {
 		switch (this.modul) {
 		case "abwlbuch":
 			html += "<h3>Forschungsschwerpunkte</h3>\n";
-			html += "<br />\n";
 			html += "<ul>\n";
 			html += "<li>ElektromobilitÃ¤t</li>\n";
 			html += "<li>System Dynamics</li>\n";
@@ -1280,6 +1285,13 @@ public class SkriptBean {
 
 			break;
 		case "wm":
+
+			html += "";
+			this.setForschungsschwerpunkte(html);
+
+			break;
+			
+		case "VWL":
 
 			html += "";
 			this.setForschungsschwerpunkte(html);
@@ -1460,8 +1472,8 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
+			html += "<br/>\n";
 			html += "<h3>Forschungsschwerpunkte</h3>\n";
-			html += "<br />\n";
 			html += "<ul>\n";
 			html += "<li>Software Entwicklung, Web Anwendungen, </li>\n";
 			html += "<li>Information Security</li>\n";
@@ -1546,6 +1558,13 @@ public class SkriptBean {
 			this.setFunktion(html);
 
 			break;
+			
+		case "VWL":
+
+			html += "";
+			this.setFunktion(html);
+
+			break;
 
 		case "prog1":
 			html += "<h3>Funktionen an der Hochschule</h3>\n";
@@ -1571,8 +1590,8 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
+			html += "<br/>\n";
 			html += "<h3>Funktionen an der Hochschule</h3>\n";
-			html += "<br />\n";
 			html += "<ul>\n";
 			html += "<li>Dekan des Fachbereichs Dienstleistungen und Consulting</li>\n";
 
@@ -1627,6 +1646,13 @@ public class SkriptBean {
 
 			break;
 		case "wm":
+
+			html += "";
+			this.setBeruflicher(html);
+
+			break;
+			
+		case "VWL":
 
 			html += "";
 			this.setBeruflicher(html);
@@ -2069,7 +2095,7 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
-			html += "<h3>Beruflicher Werdegang</h3>\n";
+			html += "<br><h3>Beruflicher Werdegang</h3>\n";
 			html += "<table border=\"2\">\n";
 			html += "<tr>\n";
 			html += "<td> bis 1994</td>\n";
@@ -2092,6 +2118,7 @@ public class SkriptBean {
 			html += "<td>Professur f&uuml;r Wirtschaftsinformatik an der Hochschule f&uuml;r Wirtschaft und Gesellschaft Ludwigshafen</td>\n";
 			html += "</tr>\n";
 			html += "</table>\n";
+			html += "<br/>\n";
 
 			this.setBeruflicher(html);
 
@@ -2197,6 +2224,19 @@ public class SkriptBean {
 			this.setPublikationen(html);
 
 			break;
+			
+		case "erpScm":
+			html = "";
+			this.setPublikationen(html);
+
+			break;
+			
+		case "VWL":
+			html = "";
+			this.setPublikationen(html);
+
+			break;
+
 
 		case "Stat":
 			html = "";
@@ -2424,8 +2464,8 @@ public class SkriptBean {
 			break;
 
 		case "webAnwendung":
+			html += "<br/>\n";
 			html += "<h3>Publikationen</h3>\n";
-			html += "<br />\n";
 			html += "<ul>\n";
 
 			html += "<li>H. R&ouml;ckle: Wiener-R&auml;ume und asymptotische Entwicklung f&uuml;r die W&auml;rmeleitungsgleichung, Diplomarbeit in Mathematik an der Ruhr-Universit&auml;t Bochum (1991)</li>\n";
@@ -2682,7 +2722,7 @@ public class SkriptBean {
 //		
 //	}
 
-	// Artikel vom Warenkorb löschen
+	// Artikel vom Warenkorb lï¿½schen
 
 	public void deleteArtikelVonWarenkorb(int wnr) throws SQLException {
 		String sql = "DELETE FROM warenkorb WHERE wnr = ?";
@@ -2845,7 +2885,7 @@ public class SkriptBean {
 //		return html;
 //	}
 
-	// Artikel vom Warenkorb löschen
+	// Artikel vom Warenkorb lï¿½schen
 
 	public void deleteArtikelVonWarenkorb(String wnr) throws SQLException {
 		String sql = "DELETE FROM warenkorb WHERE wnr = ?";

@@ -238,6 +238,18 @@ input[type=text] {
 	height: 60px;
 }
 
+input[type=text].text {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: list-item;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+	height: 60px;
+}
+
 .submitBewertung {
 	width: 100%;
 	background-color: #F60;

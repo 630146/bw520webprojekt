@@ -6,8 +6,6 @@
 <meta charset="UTF-8">
 <title>Prof | lazyNerds</title>
 <link type="text/css" rel="stylesheet" href="../css/AlleModule.css" />
-
-<link type="text/css" rel="stylesheet" href="../css/warenkorb.css" />
 <link
 	href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 	rel="stylesheet" />
@@ -16,21 +14,24 @@
 	scope="session" />
 
 <body>
+	<div class="backgroundModule">
+		<div class="Anfang">
+			<h1><jsp:getProperty property="prof" name="kb" /></h1>
 
-	<h1><jsp:getProperty property="prof" name="kb" /></h1>
+			<jsp:getProperty property="titel" name="kb" />
+			<jsp:getProperty property="sprechstunde" name="kb" />
+			<jsp:getProperty property="lehrgebiete" name="kb" />
+			<jsp:getProperty property="forschungsschwerpunkte" name="kb" />
+			<jsp:getProperty property="funktion" name="kb" />
+			<jsp:getProperty property="beruflicher" name="kb" />
+			<jsp:getProperty property="publikationen" name="kb" />
 
-	<jsp:getProperty property="titel" name="kb" />
-	<jsp:getProperty property="sprechstunde" name="kb" />
-	<jsp:getProperty property="lehrgebiete" name="kb" />
-	<jsp:getProperty property="forschungsschwerpunkte" name="kb" />
-	<jsp:getProperty property="funktion" name="kb" />
-	<jsp:getProperty property="beruflicher" name="kb" />
-	<jsp:getProperty property="publikationen" name="kb" />
-
-	<form action="ProfAppl.jsp" method="get">
-
-		<input type="submit" name="zurueckza" value="Zur Agenda">
-
-	</form>
+			<form action="ProfAppl.jsp" method="get">
+				<div class="Anfangdiv">
+					<input type="submit" name="zurueckza" value="Zur Agenda">
+				</div>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

@@ -37,9 +37,10 @@ public class Artikel {
 		html += "<img  src='../img/" + this.aname + ".jpg' width= '250' height= '300'/>";
 		html += "</td>";
 		html += "<td>";
-		html += "<h4>" + this.aname + "<br> von " + this.autor + "</h4>";
-		html += " EUR " + this.preis;
-		html += "<br><br>" + "Hier ausw&auml;hlen: <input type='checkbox' name='artikel' value='" + this.anr + "' />";
+		html += "<h6>" + this.aname + "<br> von " + this.autor + "</h6>";
+		html += " <h4> EUR " + this.preis + "</h4>";
+		html += "<br><br><h4>" + "Hier ausw&auml;hlen: <input type='checkbox' name='artikel' value='" + this.anr
+				+ "' /></h4>";
 		html += "</td>";
 		html += "<tr>";
 		html += "</table>";
